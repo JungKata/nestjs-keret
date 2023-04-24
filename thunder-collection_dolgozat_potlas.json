@@ -1,0 +1,94 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "dolgozat_potlas",
+    "dateExported": "2023-04-24T19:29:41.589Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "694e8464-4ed4-4209-99ca-f6a3be7c5ee5",
+            "colId": "86982420-e858-45d7-aba1-da29a981680c",
+            "containerId": "",
+            "name": "newPlayer",
+            "url": "http://localhost:3000/player/play",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-24T19:06:49.451Z",
+            "modified": "2023-04-24T19:06:49.451Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "asdasd@gmail.com"
+                    },
+                    {
+                        "name": "banned",
+                        "value": "false",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "6c449a20-d359-4b01-89ab-e03fed3079a5",
+            "colId": "86982420-e858-45d7-aba1-da29a981680c",
+            "containerId": "",
+            "name": "findAllPlayer",
+            "url": "http://localhost:3000/player/findAll",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-24T19:12:21.603Z",
+            "modified": "2023-04-24T19:12:21.603Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fab4aeb2-855b-4127-be18-02ad6d12e57b",
+            "colId": "86982420-e858-45d7-aba1-da29a981680c",
+            "containerId": "",
+            "name": "newCharacter",
+            "url": "http://localhost:3000/characters/newCharacter",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-24T19:22:30.569Z",
+            "modified": "2023-04-24T19:22:30.569Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "asd"
+                    },
+                    {
+                        "name": "experience",
+                        "value": "5"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0a9119aa-3c29-47c5-a532-fdc898287e2e",
+            "colId": "86982420-e858-45d7-aba1-da29a981680c",
+            "containerId": "",
+            "name": "findAllCharacter",
+            "url": "http://localhost:3000/characters/allCharacter",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-04-24T19:23:19.450Z",
+            "modified": "2023-04-24T19:23:19.450Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
